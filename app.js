@@ -19,13 +19,14 @@ var manager = require('./routes/manager');
 expressValidator = require('express-validator');
 
 mongoose.Promise = global.Promise;
-// mongoose.connect('mongodb://localhost:27017/HRMS');
-var mongoDB = "mongodb://localhost:27017/HRMS";
+// mongoose.connect('mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/?retryWrites=true&w=majority');
+var mongoDB = "mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/HRMS?retryWrites=true&w=majority";
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false,
+    useUnifiedTopology: true
+    // useMongoClient:true
+    // useFindAndModify: false,
 });
 
 var db = mongoose.connection;
