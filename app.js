@@ -24,9 +24,9 @@ var mongoDB = "mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/HRMS?retr
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true,
-    useUnifiedTopology: true
-    // useMongoClient:true
-    // useFindAndModify: false,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
 });
 
 var db = mongoose.connection;
