@@ -20,7 +20,7 @@ expressValidator = require('express-validator');
 
 mongoose.Promise = global.Promise;
 // mongoose.connect('mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/?retryWrites=true&w=majority');
-var mongoDB = "mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/HRMS?retryWrites=true&w=majority";
+var mongoDB = "mongodb+srv://admin:admin123@cluster0.ybpxy.mongodb.net/HRMS?retryWrites=true&w=majority"; //connectdb
 
 mongoose.connect(mongoDB, {
     useNewUrlParser: true,
