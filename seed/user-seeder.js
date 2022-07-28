@@ -34,7 +34,7 @@ var users=[
     new User({
 
         type: 'employee',
-        email: 'immanQ@outlook.com',
+        email: 'imman@outlook.com',
         password: bcrypt.hashSync('123456', bcrypt.genSaltSync(5), null),
         name: 'Aliff Imman',
         dateOfBirth: new Date('1990-05-26'),
