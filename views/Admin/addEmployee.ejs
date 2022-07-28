@@ -245,8 +245,8 @@
 
                                 <select class="form-control" id="designation" name="designation">
                                     <option value="<%= user.designation %>"><%= user.designation %></option>
-                                    <% if (user.designation != "N/A"){ %>
-                                    <option value="N/A">Employee</option>
+                                    <% if (user.designation != "Employee"){ %>
+                                    <option value="Employee">Employee</option>
                                     <% } %>
                                     <!-- <% if (user.designation != "System Analyst"){ %>
                                     <option value="System Analyst">System Analyst</option>
