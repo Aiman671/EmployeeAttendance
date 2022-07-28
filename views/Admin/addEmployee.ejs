@@ -144,7 +144,7 @@
                                 <select class="form-control" id="department" name="department">
                                     <option value="<%= user.department %>"><%= user.department %></option>
                                     <% if (user.department != "N/A"){ %>
-                                    <option value="N/A">Employee</option>
+                                    <option value="N/A">N/A</option>
                                     <% } %>
                                     <% if (user.department != "Human Resource"){ %>
                                     <option value="Human Resource">Human Resource</option>
@@ -246,7 +246,7 @@
                                 <select class="form-control" id="designation" name="designation">
                                     <option value="<%= user.designation %>"><%= user.designation %></option>
                                     <% if (user.designation != "N/A"){ %>
-                                    <option value="N/A">N/A</option>
+                                    <option value="N/A">Employee</option>
                                     <% } %>
                                     <!-- <% if (user.designation != "System Analyst"){ %>
                                     <option value="System Analyst">System Analyst</option>
