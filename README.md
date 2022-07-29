@@ -10,9 +10,13 @@ WEBSITE DEPLOYMENT LINK:
 https://wehee-attendance.herokuapp.com/
 
 ADMIN LOGIN
+
 email: admin@admin.com
+
 password: admin123
 
 EMPLOYEE LOGIN
+
 email: adam@gmail.com
+
 password: 123456
