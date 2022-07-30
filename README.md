@@ -20,3 +20,15 @@ EMPLOYEE LOGIN
 email: adam@gmail.com
 
 password: 123456
+
+email: amirulakmal@gmail.com
+
+password: 123456
+
+email: imman@outlook.com
+
+password: 123456
+
+email: samad@gmail.com
+
+password: 123456
